@@ -1,7 +1,7 @@
-# <a name="top"></a>README TITLE
+# <a name="top"></a>Classification Project
 ![]()
 
-by: Matthew Dalton
+by: Michael Haerle
 
 <p>
   <a href="https://github.com/mdalton87" target="_blank">
