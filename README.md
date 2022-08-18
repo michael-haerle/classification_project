@@ -4,8 +4,8 @@
 by: Michael Haerle
 
 <p>
-  <a href="https://github.com/mdalton87" target="_blank">
-    <img alt="Matthew" src="https://img.shields.io/github/followers/mdalton87?label=Follow_Matt&style=social" />
+  <a href="https://github.com/michael-haerle" target="_blank">
+    <img alt="Michael" src="https://img.shields.io/github/followers/michael-haerle?label=Follow_Michael&style=social" />
   </a>
 </p>
 
