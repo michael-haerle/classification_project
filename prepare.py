@@ -22,6 +22,11 @@ def prep_telco(telco_df):
     telco_df = telco_df.drop(columns=cols_to_drop)
     telco_df.total_charges = telco_df.total_charges.str.replace(' ', '0')
     telco_df.total_charges = telco_df.total_charges.astype('float')
+    avg_monthly_charges = telco_df.monthly_charges.mean()
+    avg_tenure = telco_df.tenure.mean()
+    telco_df['bel_avg_ten_abv_avg_mon_chrg'] = (telco_df['monthly_charges'] > avg_monthly_charges) & (telco_df['tenure'] < avg_tenure)
+    telco_df.bel_avg_ten_abv_avg_mon_chrg = telco_df.bel_avg_ten_abv_avg_mon_chrg.replace(True, 1)
+    telco_df.bel_avg_ten_abv_avg_mon_chrg = telco_df.bel_avg_ten_abv_avg_mon_chrg.replace(False, 0)
     return telco_df
 
 def split_data_telco(telco_df):
