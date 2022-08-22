@@ -35,10 +35,6 @@ Using the data science pipeline to practice with classification. In this reposit
 ### Project Outline:
 
 
-        
-### Hypothesis
-
-
 
 ### Target variable
 - The target variable for this project is Churn.
@@ -68,27 +64,27 @@ Using the data science pipeline to practice with classification. In this reposit
 ---
 | Attribute | Definition | Data Type |
 | ----- | ----- | ----- |
-| customer_id | | object |
-| senior_citizen | | int64 |
-| partner | | int64 |
-| dependents | | int64 |
-| tenure | | int64 |
-| phone_service | | int64 |
-| multiple_lines | | object |
-| online_security | | object |
-| online_backup | | object |
-| device_protection | | object |
-| tech_support | | object |
-| streaming_tv | | object |
-| streaming_movies | | object |
-| paperless_billing | | int64 |
-| monthly_charges | | float64 |
-| total_charges | | float64 |
-| churn | | int64 |
-| contract_type | | object |
-| internet_service_type | | object |
-| gender_Male | | uint8 |
-| contract_type_One_year | | uint8 |
+| customer_id | Customers ID number| object |
+| senior_citizen | 1 = Customer is a Senior Citizen, 0 = Customer Not a Senior Citizen | int64 |
+| partner | 1 = Customer has a partner, 0 = Customer doesn't have a partner | int64 |
+| dependents | 1 = Customer has dependents, 0 = Customer doesn't have dependents | int64 |
+| tenure | Value of their tenure in months | int64 |
+| phone_service | 1 = Customer has phone service, 0 = Customer doesn't have phone service | int64 |
+| multiple_lines | Does the customer have multiple lines, yes/no/no phone service | object |
+| online_security | Does the customer have online security, yes/no/no internet service | object |
+| online_backup | Does the customer have online security, yes/no/no internet service | object |
+| device_protection | Does the customer have online backup, yes/no/no internet service | object |
+| tech_support | Does the customer have tech support, yes/no/no internet service | object |
+| streaming_tv | Does the customer have tv streaming, yes/no/no internet service | object |
+| streaming_movies | Does the customer have movie streaming, yes/no/no internet service | object |
+| paperless_billing | 1 = Customer has paperless billing, 0 = Customer doesn't have paperless billing | int64 |
+| monthly_charges | The amount of their monthly charge | float64 |
+| total_charges | The total charges for their account | float64 |
+| churn | 1 = Customer has churned, 0 = Customer hasn't churned | int64 |
+| contract_type | What contract does the customer have month-to-month/one year/two year | object |
+| internet_service_type | What internet service type does the customer have None/DSL/Fiber Optic | object |
+| gender_Male | 1 = Male, 0 = Female | uint8 |
+| contract_type_One_year | 1 = Customer has one year contract, 0 = Customer doesn't have one year contract | uint8 |
 | contract_type_Two_year | | uint8 |
 | internet_service_type_Fiber_optic | | uint8 |
 | internet_service_type_None | | uint8 |
