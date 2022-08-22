@@ -46,10 +46,14 @@ Using the data science pipeline to practice with classification. In this reposit
 - Document conclusions, takeaways, and next steps in the Final Report Notebook.
 
 
-### Target variable
+### Project goals: 
+- My goal is to find and use the key drivers of churn predict which customer are at risk of churn. I will also recomend potential ways to reduce the monthly rate of churn.
+
+
+### Target variable:
 - The target variable for this project is Churn.
 
-### Initial questions
+### Initial questions:
 - Where are the correlations in the data?
 - Is there a relationship between Churn and Contract Type?
 - Is there a relationship between churn and phone service?
