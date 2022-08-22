@@ -108,43 +108,63 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 #### Hypothesis:
-- The null hypothesis (H<sub>0</sub>) is
-- The alternate hypothesis (H<sub>1</sub>) is 
+- The null hypothesis (H<sub>0</sub>) is: Contract Type and churn are independent
+- The alternate hypothesis (H<sub>1</sub>) is: There is a relationship between churn and Contract Type
 
 #### Confidence level and alpha value:
 - I established a 95% confidence level
 - alpha = 1 - confidence, therefore alpha is 0.05
 
 #### Results:
-
-
-#### Summary:
+- We reject the null hypothesis that Contract Type and churn are independent
+- There is a relationship between churn and Contract Type
+- P-Value 3.2053427834370596e-153
+- Chi2 702.26
+- Degrees of Freedom 2
 
 
 ### Stats Test 2: Chi Square
 
 
-#### Hypothesis:
-- The null hypothesis (H<sub>0</sub>) is 
-- The alternate hypothesis (H<sub>1</sub>) is 
+#### Hypothesis(First Plot):
+- The null hypothesis (H<sub>0</sub>) is: Phone Service and churn are independent
+- The alternate hypothesis (H<sub>1</sub>) is: There is a relationship between churn and Phone Service
 
-#### Confidence level and alpha value:
+#### Confidence level and alpha value(First Plot):
 - I established a 95% confidence level
 - alpha = 1 - confidence, therefore alpha is 0.05
 
 
-#### Results:
+#### Results(First Plot):
+- We fail to reject the null hypothesis that Phone Service and churn are independent
+- There appears to be no relationship between churn and Phone Service
+- P-Value 0.11104986402814591
+- Chi2 2.54
+- Degrees of Freedom 1
+
+#### Hypothesis(Second Plot):
+- The null hypothesis (H<sub>0</sub>) is: Females who have Phone Service and churn are independent
+- The alternate hypothesis (H<sub>1</sub>) is: There is a relationship between churn and Females with Phone Service
+
+#### Confidence level and alpha value(Second Plot):
+- I established a 95% confidence level
+- alpha = 1 - confidence, therefore alpha is 0.05
 
 
-#### Summary:
+#### Results(Second Plot):
+- We reject the null hypothesis that Females who have Phone Service and churn are independent
+- There is a relationship between churn and Females with Phone Service
+- P-Value 0.0298505787547087
+- Chi2 4.72
+- Degrees of Freedom 1
 
 
 ### Stats Test 3: Chi Square
 
 
 #### Hypothesis:
-- The null hypothesis (H<sub>0</sub>) is 
-- The alternate hypothesis (H<sub>1</sub>) is 
+- The null hypothesis (H<sub>0</sub>) is: People who are above the Avg Monthly Charge and Below the Avg Tenure are independent with churn
+- The alternate hypothesis (H<sub>1</sub>) is: There is a relationship between churn and people who are above the Avg Monthly Charge and Below the Avg Tenure
 
 #### Confidence level and alpha value:
 - I established a 95% confidence level
@@ -152,9 +172,12 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 #### Results:
+- We reject the null hypothesis that People who are above the Avg Monthly Charge and Below the Avg Tenure are independent with churn
+- There is a relationship between churn and people who are above the Avg Monthly Charge and Below the Avg Tenure
+- P-Value 5.788583939458989e-132
+- Chi2 597.52
+- Degrees of Freedom 1
 
-
-#### Summary:
 
 ***
 
