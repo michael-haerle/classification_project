@@ -85,13 +85,13 @@ Using the data science pipeline to practice with classification. In this reposit
 | internet_service_type | What internet service type does the customer have None/DSL/Fiber Optic | object |
 | gender_Male | 1 = Male, 0 = Female | uint8 |
 | contract_type_One_year | 1 = Customer has one year contract, 0 = Customer doesn't have one year contract | uint8 |
-| contract_type_Two_year | | uint8 |
-| internet_service_type_Fiber_optic | | uint8 |
-| internet_service_type_None | | uint8 |
-| bel_avg_ten_abv_avg_mon_chrg | | int64 |
-| baseline | | int64 |
-| gender_Male_str | | object |
-| churn_str | | object|
+| contract_type_Two_year | 1 = Customer has two year contract, 0 = Customer doesn't have two year contract | uint8 |
+| internet_service_type_Fiber_optic | 1 = Customer has fiber optic internet service, 0 = Customer doesn't have fiber optic internet service | uint8 |
+| internet_service_type_None | 1 = Customer has no internet service, 0 = Customer doesn't have no internet service | uint8 |
+| bel_avg_ten_abv_avg_mon_chrg | 1 = Customer is below average tenure and above average monthly charge,  0 = Customer isn't below average tenure and above average monthly charge| int64 |
+| baseline | The baseline prediction for churn, used for the modeling | int64 |
+| gender_Male_str | A string version of the gender_Male, this is used for a visual| object |
+| churn_str | A string version of churn, this is used for a visual | object|
 ***
 
 ## <a name="wrangle"></a>Data Acquisition and Preparation
