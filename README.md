@@ -41,15 +41,15 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 ### Target variable
-
+The target variable for this project is Churn.
 
 ### Need to haves (Deliverables):
 
 
 
 ### Nice to haves (With more time):
-
-
+ - If I had more time with the project I would like to explore more combinations of features on my models and I would also implement more feature engineering.
+ - I would also like to explore more why females that don't have phone service are less likely to churn.
 
 ***
 
