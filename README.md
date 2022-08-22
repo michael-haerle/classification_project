@@ -216,8 +216,6 @@ Using the data science pipeline to practice with classification. In this reposit
 ## <a name="model"></a>Modeling:
 [[Back to top](#top)]
 
-### Model Preparation:
-
 ### Baseline
     
 - Baseline Results: Accuracy 73%
@@ -228,10 +226,10 @@ Using the data science pipeline to practice with classification. In this reposit
 
 ***
 
-### Models:
+## Models:
 
 
-#### Model 1: Random Forest
+### Model 1: Random Forest
 
 
 Model 1 results:
