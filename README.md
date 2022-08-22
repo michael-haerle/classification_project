@@ -128,7 +128,8 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 ### Takeaways from exploration:
-
+- The new column I made for people above the Avg Monthly Charge and Below the Avg Tenure seems to be a good column to use in the modeling phase.
+- Most of the numeric columns will be used for the modeling phase.
 
 ***
 
