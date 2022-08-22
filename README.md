@@ -59,6 +59,12 @@ Using the data science pipeline to practice with classification. In this reposit
  - If I had more time with the project I would like to explore more combinations of features on my models and I would also implement more feature engineering.
  - I would also like to explore more why females that don't have phone service are less likely to churn.
 
+
+### Steps to Reproduce:
+- You will need to make an env.py file with a vaild username, hostname and password assigned to the variables user, host, and password
+- Then download the acquire.py, prepare.py, model.py, telcoCo.png, and final_report.ipynb
+- Make sure these are all in the same directory and run the final_report.ipynb.
+
 ***
 
 ## <a name="findings"></a>Key Findings:
