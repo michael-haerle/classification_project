@@ -41,7 +41,7 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 ### Target variable
-The target variable for this project is Churn.
+- The target variable for this project is Churn.
 
 ### Need to haves (Deliverables):
 
@@ -91,8 +91,8 @@ The target variable for this project is Churn.
 ## <a name="explore"></a>Data Exploration:
 [[Back to top](#top)]
 - Python files used for exploration:
-    - wrangle.py 
-    - explore.py
+    - prepare.py 
+    - acquire.py
     - modeling.py
 
 
@@ -167,11 +167,11 @@ To run the ANOVA test in Python use the following import: \
 
 ### Baseline
     
-- Baseline Results: 
+- Baseline Results: Accuracy 73%
     
 
 - Selected features to input into models:
-    - features = []
+    - features = ['bel_avg_ten_abv_avg_mon_chrg', 'internet_service_type_None', 'internet_service_type_Fiber_optic', 'contract_type_Two_year', 'contract_type_One_year', 'gender_Male', 'monthly_charges', 'paperless_billing', 'tenure', 'dependents', 'partner', 'senior_citizen']
 
 ***
 
