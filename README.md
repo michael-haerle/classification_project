@@ -47,7 +47,7 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 ### Project goals: 
-- My goal is to find and use the key drivers of churn predict which customer are at risk of churn. I will also recomend potential ways to reduce the monthly rate of churn.
+- My goal is to find and use the key drivers of churn to predict which customer are at risk of churn. I will also recomend potential ways to reduce the monthly rate of churn.
 
 
 ### Target variable:
