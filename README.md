@@ -40,7 +40,9 @@ Using the data science pipeline to practice with classification. In this reposit
 - The target variable for this project is Churn.
 
 ### Need to haves (Deliverables):
-
+- A final report notebook
+- A predictions csv
+- A 5min presentation
 
 
 ### Nice to haves (With more time):
