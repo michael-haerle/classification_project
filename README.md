@@ -104,8 +104,18 @@ Using the data science pipeline to practice with classification. In this reposit
 ![]()
 
 
-### Wrangle steps: 
-
+### Prepare steps: 
+- Droped duplicate columns
+- Created dummy variables
+- Concatenated the dummy dataframe
+- Changed the type for senior_citizen, tenure, and monthly_charges
+- Mapped the yes and no to 1 and 0 for columns partner, dependents, phone_service, paperless_billing, and churn
+- Dropped columns not needed
+- Changed the type of total_charges by replacing the white space with a 0
+- Set variables for the mean of tenure and monthly charges
+- Used those variables to feature engineer a new column where it returned a true if they were above the average monthly charge and below the average tenure
+- Mapped the true and false of that columns to 1 and 0
+- Split into the train, validate, and test sets
 
 *********************
 
