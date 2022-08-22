@@ -68,13 +68,34 @@ Using the data science pipeline to practice with classification. In this reposit
 ---
 | Attribute | Definition | Data Type |
 | ----- | ----- | ----- |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-
+| customer_id | | object |
+| senior_citizen | | int64 |
+| partner | | int64 |
+| dependents | | int64 |
+| tenure | | int64 |
+| phone_service | | int64 |
+| multiple_lines | | object |
+| online_security | | object |
+| online_backup | | object |
+| device_protection | | object |
+| tech_support | | object |
+| streaming_tv | | object |
+| streaming_movies | | object |
+| paperless_billing | | int64 |
+| monthly_charges | | float64 |
+| total_charges | | float64 |
+| churn | | int64 |
+| contract_type | | object |
+| internet_service_type | | object |
+| gender_Male | | uint8 |
+| contract_type_One_year | | uint8 |
+| contract_type_Two_year | | uint8 |
+| internet_service_type_Fiber_optic | | uint8 |
+| internet_service_type_None | | uint8 |
+| bel_avg_ten_abv_avg_mon_chrg | | int64 |
+| baseline | | int64 |
+| gender_Male_str | | object |
+| churn_str | | object|
 ***
 
 ## <a name="wrangle"></a>Data Acquisition and Preparation
