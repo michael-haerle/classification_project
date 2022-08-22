@@ -54,7 +54,11 @@ Using the data science pipeline to practice with classification. In this reposit
 ## <a name="findings"></a>Key Findings:
 [[Back to top](#top)]
 
-
+- There are positive correlations with churn and monthly charges, papperless billing, fiber optic, phone service, senior citizen, and those who are above the average monthly charges and below the average tenure.
+- There are negative correlations with churn and tenure, total charges, no internet service, and a two year contract.
+- There is a relationship between churn and contract type.
+- There was not a relationship between both genders who churn and phone service, however there was a relationship between females who churn and phone service.
+- There was a relationship between churn and people who are above the average monthly charge and below the average tenure.
 
 
 ***
