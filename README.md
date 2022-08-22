@@ -180,6 +180,19 @@ Using the data science pipeline to practice with classification. In this reposit
 
 
 - Model 1 results:
+- RandomForestClassifier min_samples_leaf=12, max_depth=8, random_state=123
+- Model stats:
+- Accuracy: 0.81
+- True Positive Rate: 0.51
+- False Positive Rate: 0.08
+- True Negative Rate: 0.92
+- Flase Negative Rate: 0.49
+- Precision: 0.71
+- Recall: 0.51
+- f1 score: 0.59
+- Positive support: 1121
+- Negative support: 3104
+- Accuracy of random forest classifier on training set: 0.81
 
 
 
@@ -212,7 +225,7 @@ Using the data science pipeline to practice with classification. In this reposit
 
 ## Testing the Model
 
-- Model Testing Results
+- Model Testing Results: 81% Accuracy
 
 ***
 
