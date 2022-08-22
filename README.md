@@ -49,6 +49,13 @@ Using the data science pipeline to practice with classification. In this reposit
 ### Target variable
 - The target variable for this project is Churn.
 
+### Initial questions
+- Where are the correlations in the data?
+- Is there a relationship between Churn and Contract Type?
+- Is there a relationship between churn and phone service?
+- If not is there a relationship with females who churn with phone service?
+- Is there a relationship between people who are above the averge monthly charge and below the average tenure and churn?
+
 ### Need to haves (Deliverables):
 - A final report notebook
 - A predictions csv
