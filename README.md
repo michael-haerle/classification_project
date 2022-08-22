@@ -201,13 +201,13 @@ Using the data science pipeline to practice with classification. In this reposit
 
 | Model | Validation |
 | ---- | ----|
-| Baseline | 0.167366 |
-| Random Forest | 0.166731 |
-| K-Nearest Neighbor | 0.155186 | 
-| Logistic Regression | 0.166731 |
+| Baseline | 0.73 |
+| Random Forest | 0.80 |
+| K-Nearest Neighbor | 0.79 | 
+| Logistic Regression | 0.80 |
 
 
-- {} model performed the best
+- {Random Forest} model performed the best
 
 
 ## Testing the Model
