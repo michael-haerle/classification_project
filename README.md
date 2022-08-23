@@ -73,7 +73,7 @@ Using the data science pipeline to practice with classification. In this reposit
 
 ### Steps to Reproduce:
 - You will need to make an env.py file with a vaild username, hostname and password assigned to the variables user, host, and password
-- Then download the acquire.py, prepare.py, model.py, telcoCo.png, and final_report.ipynb
+- Then download the acquire.py, prepare.py, model.py, explore.py, telcoCo.png, and final_report.ipynb
 - Make sure these are all in the same directory and run the final_report.ipynb.
 
 ***
@@ -154,6 +154,7 @@ Using the data science pipeline to practice with classification. In this reposit
     - prepare.py 
     - acquire.py
     - modeling.py
+    - explore.py
 
 
 ### Takeaways from exploration:
